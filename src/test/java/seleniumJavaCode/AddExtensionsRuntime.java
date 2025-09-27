@@ -14,8 +14,7 @@ public class AddExtensionsRuntime {
 		ChromeOptions opt = new ChromeOptions();
 		//File file = new File("C:\\Users\\ASUS\\Downloads\\SelectorsHub-Chrome-Web-Store.crx");
 		opt.addExtensions(new File("C:\\Users\\ASUS\\Downloads\\SelectorsHub-Chrome-Web-Store.crx"));
-		//File file = new File("C:\\Users\\ASUS\\Downloads\\KeepTabActive.crx");
-		//opt.addExtensions(new File("C:\\\\Users\\\\ASUS\\\\Downloads\\\\KeepTabActive.crx"));
+		
 		
 		WebDriver driver = new ChromeDriver(opt);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
