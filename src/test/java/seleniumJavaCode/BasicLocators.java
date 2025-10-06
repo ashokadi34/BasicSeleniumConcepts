@@ -34,7 +34,7 @@ public static void main(String[] args) throws InterruptedException {
 //		List<WebElement>lins=driver.findElements(By.tagName("a"));
 //		System.out.println("number of total links in page: "+lins.size());
 	 
-//		driver.close();
+		driver.close();
 		
 	}
 }
