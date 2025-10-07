@@ -44,7 +44,7 @@ public class BrokenLinks {
 			
 			try 
 			{
-				//2)Hit link to server and get status code from server.
+				//2)Hit link to server and get status codes from server.
 				URL linkURL = new URL(hrefValue); // convert href value from string to URL
 				HttpURLConnection conn = (HttpURLConnection) linkURL.openConnection(); //open connection to the server
 				conn.connect(); // connect to server and send request the server
