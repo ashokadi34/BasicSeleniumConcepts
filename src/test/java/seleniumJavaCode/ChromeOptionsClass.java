@@ -49,7 +49,7 @@ public class ChromeOptionsClass {
 			{
 				System.out.println("Test Failed"); 
 			}
-		   		driver.close();
+//		   		driver.close();
 
 	}
 
