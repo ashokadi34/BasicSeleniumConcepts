@@ -40,7 +40,7 @@ public class ClickLinks {
         	
         	Actions act = new Actions(driver);
         	act.moveToElement(eachTag).click().build().perform();
-        	Thread.sleep(1000);
+        	Thread.sleep(2000);
         	//driver.switchTo().defaultContent();
         	
         }
