@@ -81,7 +81,7 @@ public class DatePicker {
 		String month="April";
 		String date="15";
 		
-		//selectFutureDate(driver, year, month, date);
+		//selectFutureDate(driver, year, month, date); //for Future date
 		selectPastDate(driver, year, month, date);
 		
 
