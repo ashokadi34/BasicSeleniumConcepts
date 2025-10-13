@@ -77,7 +77,7 @@ public class DatePickerDynamic {
 					
 				}
 				
-				//select date 
+				//select the date 
 				List<WebElement>allDates=driver.findElements(By.xpath("//table//tbody//tr//td//a"));
 				
 				for(WebElement dt : allDates)
