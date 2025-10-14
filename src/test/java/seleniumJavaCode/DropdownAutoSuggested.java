@@ -15,7 +15,7 @@ public class DropdownAutoSuggested {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); //implicit wait
 		driver.get("http://google.com/");
-		//driver.get("https://www.bjs.com/"); //bjs
+		//driver.get("https://www.bjs.com/"); //bjs.com
 		driver.manage().window().maximize();
 		
 		driver.findElement(By.name("q")).sendKeys("selenium");
