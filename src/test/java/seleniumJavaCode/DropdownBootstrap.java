@@ -22,7 +22,7 @@ public class DropdownBootstrap {
 		multi.click();
 		Thread.sleep(2000);
 		
-		//select single option
+		//select only single option
 //		driver.findElement(By.xpath("//input[@value='Java']")).click();
 		
 		//capture all option and find the size 
