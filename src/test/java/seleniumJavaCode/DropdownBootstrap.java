@@ -34,6 +34,7 @@ public class DropdownBootstrap {
 //		{
 //			System.out.println(a.getText());
 //		}
+		//select desired single option through iteration
 		for (WebElement a : options)
 		{
 			String s = a.getText();
