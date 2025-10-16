@@ -22,7 +22,7 @@ public class DropdownHidden {
 		driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
 		
 		driver.findElement(By.xpath("//span[normalize-space()='PIM']")).click();
-		//click on drop down XPATH is important***
+		//click on drop down XPATH is important*****
 		driver.findElement(By.xpath("//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='oxd-table-filter']/div[@class='oxd-table-filter-area']/form[@class='oxd-form']/div[@class='oxd-form-row']/div[@class='oxd-grid-4 orangehrm-full-width-grid']/div[6]/div[1]/div[2]/div[1]/div[1]")).click();
 		//select single dropdown option
 //		driver.findElement(By.xpath("//span[normalize-space()='Finance Manager']")).click();
