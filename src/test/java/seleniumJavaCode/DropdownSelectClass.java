@@ -25,7 +25,7 @@ public class DropdownSelectClass {
 		WebElement dropdownElement = driver.findElement(By.xpath("//*[@id='country']"));
 		Actions act = new Actions(driver);
 		Select drpCountry = new Select(dropdownElement);  // using SELECT class		
-//		drpCountry.selectByIndex(1);
+//		drpCountry.selectByIndex(1); for index values
 //		drpCountry.selectByValue("uk"); //only VALUE attribute available in HTML
 //		drpCountry.selectByVisibleText("France");
 		
