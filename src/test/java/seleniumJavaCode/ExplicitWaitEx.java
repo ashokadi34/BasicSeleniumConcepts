@@ -20,7 +20,7 @@ public class ExplicitWaitEx {
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().window().maximize();
 		
-		//explicit wait usage
+		//explicit wait usage-ExpectedConditions
 		WebElement img = mywait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//img[@alt='company-branding']")));
 		System.out.println(img.isDisplayed());  
 		//explicit wait usage
