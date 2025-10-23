@@ -14,7 +14,7 @@ public class FileUpload {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://davidwalsh.name/demo/multiple-file-upload.php");
 		driver.manage().window().maximize();
-		
+		//For uploading one file
 		/*driver.findElement(By.xpath("//input[@id='filesToUpload']"))
 				.sendKeys("C:\\Users\\ASUS\\OneDrive\\Desktop\\test1.txt");
 		if(driver.findElement(By.xpath("//ul[@id='fileList']//li")).getText().equals("test1.txt"))
@@ -25,6 +25,7 @@ public class FileUpload {
 		{
 			System.out.println("File Upload failed");
 		}*/
+		//For uploading two files
 		String file1="C:\\Users\\ASUS\\OneDrive\\Desktop\\test1.txt";
 		String file2="C:\\Users\\ASUS\\OneDrive\\Desktop\\test2.txt";
 		driver.findElement(By.xpath("//input[@id='filesToUpload']")).sendKeys(file1+"\n"+file2);
