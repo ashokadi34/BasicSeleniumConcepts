@@ -18,7 +18,7 @@ import org.openqa.selenium.support.ui.Wait;
 	        driver.get("https://testautomationpractice.blogspot.com/");
 	        driver.manage().window().maximize();
 	        
-	        // Define Fluent Wait with a maximum timeout of 30 seconds and polling every 2 seconds	         
+	        // Define Fluent Wait with a maximum timeout of 30 seconds and polling every 2 sec	         
 	        Wait<WebDriver> wait = new FluentWait<>(driver)
 					                  .withTimeout(Duration.ofSeconds(30))
 					                  .pollingEvery(Duration.ofSeconds(3))
