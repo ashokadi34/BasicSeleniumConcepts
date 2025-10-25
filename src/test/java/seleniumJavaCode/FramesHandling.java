@@ -49,6 +49,7 @@ public class FramesHandling {
 		System.out.println("logo present status on 5th frame window : "+logostatus);
 		driver.switchTo().defaultContent();
 		
+		//close the driver
 		driver.close();
 
 	}
