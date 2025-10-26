@@ -29,7 +29,7 @@ public class GetConditionalMethods {
 		System.out.println(driver.findElement(By.xpath("//img[@alt='company-branding']")).isDisplayed());
 		System.out.println(driver.findElement(By.xpath("//input[@placeholder='Username']")).isEnabled());
 		
-						
+		// close the driver			
 		driver.quit();
 	}
 
