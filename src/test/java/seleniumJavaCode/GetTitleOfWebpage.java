@@ -21,7 +21,7 @@ public class GetTitleOfWebpage {
 		else {
 				System.out.println("Test Failed"); 
 			 }
-		  
+		  		//close the driver
 		  		driver.close();
 		 
 	}
