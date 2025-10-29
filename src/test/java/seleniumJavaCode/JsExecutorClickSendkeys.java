@@ -17,6 +17,7 @@ public class JsExecutorClickSendkeys {
 		driver.get("https://testautomationpractice.blogspot.com/");
 		driver.manage().window().maximize();
 		
+		//Elements
 		WebElement input=driver.findElement(By.xpath("//input[@id='name']"));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		//js.executeScript("arguments[0].setAttribute('value','JohnDeer')", input);
