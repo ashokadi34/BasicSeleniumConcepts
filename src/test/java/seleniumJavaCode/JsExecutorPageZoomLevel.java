@@ -14,7 +14,7 @@ public class JsExecutorPageZoomLevel {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://testautomationpractice.blogspot.com/");
 		driver.manage().window().maximize();
-		
+		//js
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("document.body.style.zoom='50%'","");
 		Thread.sleep(3000);
