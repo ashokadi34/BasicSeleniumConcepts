@@ -34,7 +34,7 @@ public class JsExecutorScrollBar {
 		
 		Thread.sleep(2000);
 		
-		//4)scroll to top of page
+		//4)scroll to top of pages
 		js.executeScript("window.scrollBy(0,-document.body.scrollHeight)","");
 		System.out.println(js.executeScript("return window.pageYOffset",""));
 	
