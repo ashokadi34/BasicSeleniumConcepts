@@ -27,7 +27,7 @@ public class jsHighlightingElement {
 			j.executeScript("arguments[0].value=('style','background: yellow;border: solid 2px red');", password);
 			password.sendKeys("John@1234");
 			Thread.sleep(4000);
-			// Login button highlighted by green color and red box
+			// Login button highlighted by green color and red color box
 			WebElement login = driver.findElement(By.id("login"));
 			j.executeScript("arguments[0].setAttribute('style','background: green;border: solid 2px red');", login);
 			Thread.sleep(2000);
