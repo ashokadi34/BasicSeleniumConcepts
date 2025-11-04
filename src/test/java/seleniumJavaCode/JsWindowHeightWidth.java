@@ -38,7 +38,7 @@ public class JsWindowHeightWidth {
         System.out.println("Client Width: " + clientWidth);
         System.out.println("Client Height: " + clientHeight);
 
-        // Close the browser
+        // Close the browser driver
         driver.quit();
     }
 }
