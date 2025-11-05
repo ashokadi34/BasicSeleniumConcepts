@@ -32,7 +32,7 @@ public class KeyboardActions {
 		act.keyDown(Keys.TAB).keyUp(Keys.TAB).perform();
 		//Ctrl+V
 		act.keyDown(Keys.CONTROL).sendKeys("V").keyUp(Keys.CONTROL).perform();
-		//Enter
+		//Enter key
 		//act.keyDown(Keys.ENTER).keyUp(Keys.ENTER).perform();
 		//Ctrl+Shift+A
 		//act.keyDown(Keys.CONTROL).keyDown(Keys.SHIFT).sendKeys("A").keyUp(Keys.SHIFT).keyUp(Keys.CONTROL).perform();
