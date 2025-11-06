@@ -20,7 +20,7 @@ public class MouseContextClick {
 		WebElement button=driver.findElement(By.xpath("//span[@class='context-menu-one btn btn-neutral']"));
 		Actions act = new Actions(driver);
 		act.contextClick(button).perform();
-		
+		//click the element
 		driver.findElement(By.xpath("//span[normalize-space()='Copy']")).click();
 		Thread.sleep(3000);
 		driver.switchTo().alert().accept();
