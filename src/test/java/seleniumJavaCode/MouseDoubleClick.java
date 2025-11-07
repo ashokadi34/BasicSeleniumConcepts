@@ -27,7 +27,7 @@ public class MouseDoubleClick {
 		Actions act = new Actions(driver);		//Actions class 
 		Action myaction=act.doubleClick(button).build(); //Action interface
 		myaction.perform();
-		
+		//sleep
 		Thread.sleep(3000);
 		WebElement field2=driver.findElement(By.xpath("//input[@id='field2']"));		
 		String field2res=field2.getAttribute("value");
