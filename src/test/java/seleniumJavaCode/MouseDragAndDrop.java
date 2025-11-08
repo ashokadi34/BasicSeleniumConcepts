@@ -22,7 +22,7 @@ public class MouseDragAndDrop {
 		WebElement drop=driver.findElement(By.xpath("//div[@id='droppable']"));
 		
 		Actions act = new Actions(driver);
-		//act.dragAndDrop(drag, drop).build().perform();
+//		act.dragAndDrop(drag, drop).build().perform();
 		
 //		Action myaction=act.dragAndDrop(drag, drop).build();
 //		Thread.sleep(3000);
