@@ -19,6 +19,7 @@ public class MouseHover {
 		Thread.sleep(3000);
 		WebElement desktop=driver.findElement(By.xpath("//a[normalize-space()='Desktops']"));
 		WebElement mac=driver.findElement(By.xpath("//a[normalize-space()='Mac (2)']"));
+//		actions class
 		Actions act = new Actions(driver);
 		act.moveToElement(desktop).moveToElement(mac).click().build().perform();
 		//act.moveToElement(desktop).moveToElement(mac).click().perform();
