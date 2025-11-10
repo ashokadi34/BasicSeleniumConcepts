@@ -19,7 +19,7 @@ public class NavigationalCommands {
 		System.out.println(driver.getCurrentUrl());
 		
 		driver.navigate().refresh();
-		
+		//close the driver
 		driver.close();
 		
 		
