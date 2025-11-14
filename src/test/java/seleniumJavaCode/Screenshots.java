@@ -26,7 +26,7 @@ public class Screenshots {
 		File targetfile = new File(System.getProperty("user.dir")+"\\screenshots\\fullpage.png");		
 		sourcefile.renameTo(targetfile);	//copy source file to target file
 		*/
-		//capture specific element
+//		capture specific element
 		WebElement ss=driver.findElement(By.xpath("//div[@class='product-grid home-page-product-grid']"));
 		File source=ss.getScreenshotAs(OutputType.FILE);
 		File target = new File(System.getProperty("user.dir")+"\\screenshots\\ss1.png");		
