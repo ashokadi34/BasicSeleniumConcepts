@@ -24,7 +24,7 @@ public class Slider {
 		act.dragAndDropBy(min_slider, 100, 250).perform();
 		System.out.println("Location of min_slider after moving "+min_slider.getLocation());	//(158, 250)
 		
-		//Maximum slider
+		//Maximum sliderr 
 		WebElement max_slider=driver.findElement(By.xpath("//div[@class='price-range-block']//span[2]"));
 		System.out.println("Current location of max_slider 	"+max_slider.getLocation());	//(612, 250)
 		act.dragAndDropBy(max_slider, -100, 250).perform();
