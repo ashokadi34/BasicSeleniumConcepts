@@ -15,6 +15,7 @@ public class SSLHandling {
 		ChromeDriver driver = new ChromeDriver(options);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://expired.badssl.com/");
+//		print page title
 		System.out.println("Title of the page: "+driver.getTitle());
 
 	}
