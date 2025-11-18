@@ -21,7 +21,7 @@ public class SVGElement {
 	        
 	        svgElement.click();
 
-	        // Close the browser
+	        // Close the web browser
 	        //driver.quit();
 
 	}
