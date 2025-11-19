@@ -37,7 +37,7 @@ public class SwitchBrowserWindows {
 		for (String winID : windowsList)
 		{
 			String title = driver.switchTo().window(winID).getTitle();
-			System.out.println(title);
+			System.out.println(title);	//print the title
 			
 //			if (title.equals("OrangeHRM"))
 //			{
