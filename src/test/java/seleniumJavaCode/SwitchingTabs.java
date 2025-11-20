@@ -16,8 +16,7 @@ public class SwitchingTabs {
 	public static void main(String[] args) throws InterruptedException {
 		
 		ChromeOptions opt = new ChromeOptions();
-		opt.addExtensions(new File("C:\\\\Users\\\\ASUS\\\\Downloads\\\\atab.crx"));
-		//opt.addExtensions(new File("C:\\\\Users\\\\ASUS\\\\Downloads\\\\aaaw.crx"));
+		opt.addExtensions(new File("\\path\\"));
 		Thread.sleep(4000);
 		
 				
