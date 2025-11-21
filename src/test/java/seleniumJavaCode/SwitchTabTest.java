@@ -19,11 +19,7 @@ public class SwitchTabTest {
 	public static void main(String[] args) throws InterruptedException {
 		
 		ChromeOptions opt = new ChromeOptions();
-		//File file = new File("C:\\Users\\ASUS\\OneDrive\\Desktop\\KeepTabActive.crx");
-		//File file = new File("C:\\Users\\ASUS\\OneDrive\\Desktop\\KeepTabActive.crx");
-		//File file = new File("C:\\Users\\ASUS\\Downloads\\KeepTabActive.crx");
-		opt.addExtensions(new File("C:\\\\Users\\\\ASUS\\\\Downloads\\\\kta.crx"));
-		//opt.addExtensions(file);
+		opt.addExtensions();//(crx filepath)
 		Thread.sleep(3000);
 		
 		WebDriver driver = new ChromeDriver(opt);
