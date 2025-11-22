@@ -17,7 +17,7 @@ public class TabsAndWindows {
 		//driver.switchTo().newWindow(WindowType.WINDOW);
 		driver.switchTo().newWindow(WindowType.TAB);		
 		
-		driver.get("https://www.orangehrm.com/");		
+		driver.get("https://www.orangehrm.com/"); //open in new tab		
 
 	}
 
