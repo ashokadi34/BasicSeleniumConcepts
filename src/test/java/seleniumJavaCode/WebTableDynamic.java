@@ -59,7 +59,7 @@ public class WebTableDynamic {
 								
 				//Thread.sleep(3000);
 				System.out.println(active_page.getText());
-				//active_page.click();
+				//active_page.click(); for open active page
 			}
 			
 		}
