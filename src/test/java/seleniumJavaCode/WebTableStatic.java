@@ -52,7 +52,7 @@ public class WebTableStatic {
 //			}
 //		}
 //		
-		//total price of all books
+		//count total price of all books
 		int total=0;
 		for(int i=2;i<=rows; i++)
 		{
