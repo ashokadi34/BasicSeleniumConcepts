@@ -1,4 +1,4 @@
-package seleniumJavaCode;
+package basicSeleniumJava;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -78,7 +78,7 @@ public class WebTableTest {
 			System.out.println("NO DATA FOUND");
 		}
 			
-			driver.close(); //close the driver
+			driver.close();
 		
 	}
 }
