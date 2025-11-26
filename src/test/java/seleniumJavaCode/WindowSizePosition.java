@@ -30,7 +30,7 @@ public class WindowSizePosition {
 		driver.manage().window().setPosition(p);	//setPosition
 		Thread.sleep(2000);
 		
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); //maximise the window
 		Thread.sleep(2000);
 		
 		boolean s=driver.findElement(By.id("logo")).isDisplayed();
