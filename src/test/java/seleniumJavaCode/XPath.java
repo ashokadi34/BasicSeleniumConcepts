@@ -13,7 +13,7 @@ public class XPath{
 	public static void main(String[] args) 
 	{
 		WebDriver driver=new ChromeDriver();
-		JavascriptExecutor j = (JavascriptExecutor) driver;
+		JavascriptExecutor j = (JavascriptExecutor) driver; //js class
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
