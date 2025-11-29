@@ -34,7 +34,7 @@ public class XPathLocators {
 //		driver.findElement(By.xpath("//*[contains(@placeholder,'earc')]")).sendKeys("MacBook");
 //		driver.findElement(By.xpath("//*[starts-with(@placeholder,'Sea')]")).sendKeys("MacBook");
 		
-//		Xpath with chained Xpath
+//		Xpath with chained Xpath locators
 		boolean c = driver.findElement(By.xpath("//div[@id='logo']/a/img")).isDisplayed(); 
 		System.out.println("Image Displayed status : "+c);
 		
